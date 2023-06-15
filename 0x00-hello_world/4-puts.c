@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-/* description for the main function */
+/**
+ * "Programming is like building a multilingual puzzle
+ * return 0.
+ */
+
 int main(void)
 
 {

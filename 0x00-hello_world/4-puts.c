@@ -1,6 +1,6 @@
 #include<stdio.h>
 /*
-* main - main put
+* main - entry point of the program 
 * Description: a C program that prints with put function
 * Return: Always 0 (success)
 */

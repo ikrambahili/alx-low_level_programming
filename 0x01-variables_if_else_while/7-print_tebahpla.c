@@ -1,24 +1,21 @@
-#include<stdio.h>
-
-#include<stdlib.h>
-
-#include<time.h>
+#include <stdio.h>
 
 /**
- * main - Entry point
- * return: Always 0 (success)
+ * main - Entry point of the program
+ *
+ * Description: A C program that prints the lowercase alphabet in reverse using putchar.
+ *
+ * Return: Always 0 (success)
  */
-
-int main (void)
-
+int main(void)
 {
+    char letter;
 
-        char low;
+    for (letter = 'z'; letter >= 'a'; letter--)
+        putchar(letter);
 
-        for (low = 'Z'; low >= 'a'; low--)
-	putchar(low);
-        putchar('\n');
+    putchar('\n');
 
-        return (0);
-}	
+    return 0;
+}
 

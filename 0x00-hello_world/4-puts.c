@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
  * main - Entry point
- *
- * return:always 0 (success)
+ * Write a C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+ * retur: Always 0 (success)
  */
 
 int main(void)
@@ -13,3 +13,4 @@ int main(void)
 
 	return (0);
 }
+~

@@ -12,19 +12,21 @@
  */
 int main(void)
 {
-  int n;
+    int n;
 
-  srand(time(0));
+    srand(time(0));  /* Initialize random number generator */
 
-   n = rand() - RAND_MAX / 2;
+    n = rand() - RAND_MAX / 2;  /* Generate random number for n */
 
-   printf("The number %d is ", n);
+    printf("The number %d is ", n);
 
-   if (n > 0)
-       printf("positive\n");
-   else if (n == 0)
+    if (n > 0)
+        printf("positive\n");
+    else if (n == 0)
         printf("zero\n");
     else
-       printf("negative\n")
+        printf("negative\n");
+
     return 0;
 }
+

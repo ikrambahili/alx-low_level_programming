@@ -1,8 +1,9 @@
 #include<stdio.h>
 /*
-* main - entry point of the program 
-* Description: a C program that prints with put function
-* Return: Always 0 (success)
+*main - entry point
+*Description: "Programming is like building a multilingual puzzle 
+*followed by a new line.
+*Return: Always 0 (success)
 */
 int main(void)
 {

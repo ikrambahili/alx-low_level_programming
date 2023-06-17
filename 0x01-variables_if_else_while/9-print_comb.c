@@ -5,7 +5,8 @@
 #include <time.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
+ * Description: A C program that prints all possible combinations of single-digit numbers using putchar.
  * return: Always 0 (success)
  */
 

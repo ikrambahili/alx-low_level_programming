@@ -1,19 +1,15 @@
 #include <stdio.h>
 
-#include <time.h>
-
 /**
- * main - Entry point 
+ * main - Entry point of the program
  *
  * Description: A C program that prints all possible different combinations of two digits using putchar.
  *
  * Return: Always 0 (success)
  */
 int main(void)
-
 {
-
-	 putchar('0');
+    putchar('0');
     putchar('1');
     putchar(',');
     putchar(' ');
@@ -214,8 +210,7 @@ int main(void)
     putchar(' ');
 
     putchar('6');
-
-
-
-
+    putchar('8');
+    putchar(',');
+    putchar
 

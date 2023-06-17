@@ -1,20 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the program
- *
- * Description: A C program that prints the lowercase alphabet using putchar.
- *
- * Return: Always 0 (success)
- */
+* main - Entry point of the program
+*
+* Description: A C program that prints the lowercase alphabet using putchar.
+*
+* Return: Always 0 (success)
+*/
 int main(void)
 {
-    char letter;
+char letter;
 
-    for (letter = 'a'; letter <= 'z'; letter++)
-        putchar(letter);
+for (letter = 'a'; letter <= 'z'; letter++)
+putchar(letter);
 
-    putchar('\n');
-
-    return 0;
+putchar('\n');
+return (0);
 }

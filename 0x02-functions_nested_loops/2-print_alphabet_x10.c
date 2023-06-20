@@ -13,9 +13,10 @@ for (i = 0; i < 10; i++)
 for (letter = 'a'; letter <= 'z'; letter++)
 {
 _putchar(letter);
+if (letter == 'z')
+break;
 }
 }
 
 _putchar('\n');
 }
-

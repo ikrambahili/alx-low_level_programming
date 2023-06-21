@@ -1,34 +1,23 @@
 #include <stdio.h>
-
 /**
-* print_times_table - Prints the n times table, starting with 0.
-* @n: The number of times.
+*main - prints the sum of all the multiples of 3 or 5 below 1024
+*Return: Always (success)
 */
-void print_times_table(int n)
+int main(void)
 {
-int i, j;
+int limit = 1024;
+int sum = 0;
+int i;
 
-if (n < 0 || n > 15)
-return;
-
-for (i = 0; i <= n; i++)
+for (i = 1; i < limit; i++)
 {
-for (j = 0; j <= n; j++)
-{
-int result = i * j;
-printf("%d", result);
-
-if (j != n)
-{
-printf(", ");
-if (result < 10)
-printf(" ");
-if (result < 100)
-printf(" ");
+if (i % 3 == 0 || i % 5 == 0)
+sum += i;
 }
 }
 
-printf("\n");
-}
+printf("The sum of multiples of 3 or 5 below %d is: %d\n", limit, sum);
+
+return (0);
 }
 

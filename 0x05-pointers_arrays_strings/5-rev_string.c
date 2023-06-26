@@ -10,6 +10,7 @@ int l, i;
 char temp;
 /*find sting lentgh without null char*/
 for (l = 0; s[l] != '\0'; ++l)
+	;
 /*swap the string by looping to half the strings*/
 for (i = 0; i < l / 2; i++)
 {

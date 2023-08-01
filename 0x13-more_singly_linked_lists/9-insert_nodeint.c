@@ -17,7 +17,8 @@ new_node->next = *head;
 return (new_node);
 }
 /**
-* insert_nodeint_at_index - Inserts a new node at a given POSITION IN A LINKED LIST.
+* insert_nodeint_at_index - Inserts a new node at
+* a given POSITION IN A LINKED LIST.
 * @head: POINTER to head of LINKED LIST.
 * @idx: Index of  LIST where the new node  It must added. Index starts at 0.
 * @n: Data (n) of the new node to be added.

@@ -1,12 +1,11 @@
+#include "lists.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include "lists.h"
-
 /**
-* print_listint_safe - PRINTS A listint_t LINKED LIST with LOOP DETECTION
+*print_listint_safe - Prints a listint_t linked list with LOOP  detection
 * @head:POINTER to  FIRST ELEMENT of LIST
-*
-* Return: number of nodes in LIST
+*@index: index of  node to be deleted
+*Return: 1 if  deletion is successful, -1 otherwise
 */
 size_t print_listint_safe(const listint_t *head)
 {
@@ -28,7 +27,7 @@ exit(98);
 }
 count++;
 }
-/* PRINT ANY remaining nodes after LOOP */
+/* PRINT ANY remaining nodes after  LOOP */
 while (slow)
 {
 printf("[%p] %d\n", (void *)slow, slow->n);
@@ -37,4 +36,3 @@ count++;
 }
 return (count);
 }
-
